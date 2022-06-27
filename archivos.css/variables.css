@@ -1,0 +1,31 @@
+:root{
+   --color-blanco: #fff;
+   --color-negro: #000;
+   --color-aqua: #61daf8;
+   --color-amarillo: #afe251;
+   --color-rojo: #dd2424;
+   --color-rosa: #f17cc4;
+   
+   --color-azul-oscuro: #3b629c;
+   --color-verde-claro: #c9ffb0;
+   --color-aqua-claro: #89f7ff;
+   --color-gris-claro: #ccc1c1;
+
+   --border-azul-oscuro: #103D4A;
+
+   --boton-rojo: #B72E2E;
+
+   --fuente-ceniza-claro: #666666;
+   --fuente-ceniza-oscuro: #4F4C4C;
+
+   --color-celeste: #34aed6;
+   --color-gris: #5f5c5c;
+   --color-dorado: #c6df5a;
+
+   --color-azul-2: #3b3d9c;
+
+   --background-footer: #333333;
+
+   --montserrat: 'Montserrat', sans-serif;
+   --open-sans: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,18 @@
+.footer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 3em;
+    background: var(--color-azul-oscuro);
+
+}
+
+.footer__content h5{
+
+    font-size: 1.2em;
+    color: var(--color-blanco);
+
+}

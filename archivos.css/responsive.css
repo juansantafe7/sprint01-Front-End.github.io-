@@ -1,0 +1,35 @@
+@media screen and (max-width: 1024px){
+
+    .menu-lista li:nth-child(1){
+
+        display: none;
+
+    }
+    .menu-lista li:nth-child(2){
+
+        display: none;
+
+    }
+    .menu-lista li:nth-child(3){
+
+        display: none;
+
+    }
+    .menu-lista li:nth-child(4){
+
+        display: none;
+
+    }
+    .menu-lista li:nth-child(5){
+
+        display: none;
+
+    }
+
+    
+
+}
+
+@media screen and (min-width: 768px){}
+
+@media screen and (max-width: 600px){}

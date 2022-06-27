@@ -1,0 +1,72 @@
+#invisible{
+
+    display: none;
+
+}
+
+.about{
+
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    width: 100vw;
+    align-items: center;
+    font-family: var(--montserrat);
+    font-size: 18px;
+    background: var(--color-gris-claro);
+
+}
+
+#sobre-mi{
+
+    width: 100%;
+    grid-column: 1/5;
+    border: 2px solid var(--color-rojo);
+
+}
+
+.about-info{
+
+    grid-column: 5/10;
+    padding: 2em;
+
+}
+
+.about-info h2{
+
+    font-size: 2em;
+    color:var(--border-azul-oscuro)
+
+}
+
+.divider{
+
+    height: 4px;
+    width: 60px;
+    background-color: var(--color-aqua);
+    margin-top: 10px;
+    margin-bottom: 2.5em;
+
+}
+
+.about p{
+
+    margin-bottom: 1em;
+    line-height: 1.5rem;
+
+}
+
+#firma{
+
+    width: 25%;
+    grid-column: 2/5;
+    margin-left: 200px;
+
+}
+
+#boton{
+
+    display: flex;
+    padding: 10px 20px;
+    margin-top: 5em;
+
+}

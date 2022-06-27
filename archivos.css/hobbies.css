@@ -1,0 +1,48 @@
+section.hobbies{
+
+    margin: 64px 100px;
+
+}
+
+section.hobbies h3.hobbies__title{
+
+    font-size: 3em;
+    text-align: center;
+    font-family: var(--montserrat);
+    color: var(--color-gris);
+
+}
+
+section.hobbies div.hobbies__line{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+section.hobbies div.hobbies__box{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    background-color: var(--color-blanco);
+    margin: 22px 15px 22px 0px;
+    width: 100px;
+    height: 160px;
+
+}
+
+section.hobbies div.hobbies__box ul{
+
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color:var(--color-rojo);
+
+}
