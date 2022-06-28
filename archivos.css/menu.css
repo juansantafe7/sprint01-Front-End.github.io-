@@ -51,7 +51,7 @@ body{
     .menu-lista{
 
         display: flex;
-        width: 50%;
+        width: 67%;
         justify-content: space-around;
         padding-right: 10px;
 
@@ -84,8 +84,7 @@ body{
     justify-content: space-between;
     align-items: center;
     display: flex;
-    margin-left: 9.5em;
-
-
+    flex-direction: row;
+    
 }
 

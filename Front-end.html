@@ -4,7 +4,7 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,user-scalable = no, initial-scale=1.0, maximum-scale = 1.0, minimum-scale = 1.0">
     <!-- Referencia de la hoja de estilo de Css -->
     <link rel="stylesheet" href="archivos.css\reset.css">
     <link rel="stylesheet" href="archivos.css\variables.css">
@@ -26,6 +26,7 @@
 
 </head>
 <body>
+    <div class="contenerdor-global">
     <div class="todo">
     <div class="wrapper">
         <header class="menu">
@@ -53,7 +54,7 @@
                 </button>
                 </a>
             </div>
-            <img class="title__profile" src="assets\FOTO CV SANTA FE.jpg" alt='Imagen cv'>  
+            <img id="imagen-cv" src="assets\FOTO CV SANTA FE.jpg" alt='Imagen cv'>  
             <ul class="redes-sociales">
                <li class="title__network__item"><a href="https://github.com/juansantafe7">Github</a></li>
                <li class="title__network__item"><a href="C:\Users\Juan\Desktop\Oracle One\Sprint Frond-End\challenge-one-portafolio-latam\assets\Whatsapp numero.png">Whatsapp</a></li>
@@ -177,7 +178,7 @@
     <section class="academic" id="formacion">
         <h2 class="academic__title" >Formación académica</h2>
         <div class="academic__courses">
-            <div class="academic__courses__box">
+            <div class="academic__courses__box" id="curso1">
                 <ul class="academic__courses__list">
                     <!-- Pon el logotipo de la institución de formación -->
                     <li class="academic__courses__item__img"><img src="assets\ufpr_logo.png"></li>
@@ -283,7 +284,7 @@
                 <h5>2022</h5>
             </div>
         </footer>
-
+    </div>
 
 
 <script src="validacion.js"></script>

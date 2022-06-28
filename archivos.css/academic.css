@@ -1,9 +1,11 @@
 section.academic{
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     padding: 64px 0;
     background-color: var(--border-azul-oscuro);
     width: 100vw;
-    height: 50vh;
 
 }
 
@@ -48,3 +50,4 @@ section.academic div.academic__courses__box li.academic__courses__item__img{
     padding: 8%;
 
 }
+

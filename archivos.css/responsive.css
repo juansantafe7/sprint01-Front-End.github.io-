@@ -1,4 +1,43 @@
+.contenerdor-global{
+
+    width: 100%;
+
+}
+
 @media screen and (max-width: 1024px){
+
+    .menu-lista{
+
+        width: 80%;
+
+    }
+    .menu-lista li:nth-child(1)
+    {
+       text-align: center;
+    
+    }
+
+    .todo{
+
+        width: 70%;
+
+    }
+
+    .main .redes-sociales{
+       
+        width: 70%;
+
+}
+    #imagen-cv{
+
+        width: 60%;
+ 
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
 
     .menu-lista li:nth-child(1){
 
@@ -25,11 +64,190 @@
         display: none;
 
     }
-
     
+    .menu-lista li:nth-child(6){
+
+        display: flex;
+        flex-direction: row;
+        margin-left: 15em;
+
+    }
+
+    #imagen-cv{
+
+        justify-content: space-around;
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        
+ 
+    }
+
+    .menu h2{
+
+        font-size: 1.5rem;
+        padding: 0;
+        border: 2px solid var(--color-amarillo);
+        text-align: center;
+
+    }
+
+    .main h2{
+
+        font-size: 2em;
+
+    }
+
+    .main p{
+
+        font-size: 1.5em;
+
+    }
+
+    .main .redes-sociales{
+
+        padding: 10px 20px;
+
+    }
+
+    .about-info p{
+
+        font-size: 1rem;
+
+    }
+
+    #sobre-mi{
+
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .academic__courses{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        background-color: var(--border-azul-oscuro);
+        width: 100vw;
+
+    }
+
+    .xp{
+
+        display: flex;
+
+    }
+
+    .experiencia-caja{
+
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+    }
+
+    .experiencia-caja2{
+
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+    }
+
+    .experiencia-caja3{
+
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+    }
+
+    .experiencia-caja4{
+
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+    }
+
+    .container-contact img{
+
+        width: 60vw;
+    
+    }
+
+    .container-contact h3{
+
+        font-size: 1.5rem;
+
+    }
+
+    .form .formcontato__input, .formcontato__textarea{
+
+        width: 20vw;
+        font-size: 1.5rem;
+
+    }
+
+    .boton-form{
+
+        font-size: .5em;
+        padding: 10px 20px;
+        margin: 1.5em;
+        border:none;
+        text-transform: uppercase;
+        background-color: var(--color-aqua);
+        border-radius: 20px;
+        cursor: pointer;
+    
+    }
+
 
 }
 
-@media screen and (min-width: 768px){}
+@media screen and (max-width: 600px){
 
-@media screen and (max-width: 600px){}
+    #imagen-cv{
+
+        width: 20vw;
+        justify-content: space-around;
+ 
+    }
+
+    .about-info img{
+
+        display: none;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 500px){
+
+    #imagen-cv{
+
+        width: 0vw;
+        border: none;
+ 
+    }
+
+}
